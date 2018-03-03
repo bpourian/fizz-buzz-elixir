@@ -1,18 +1,4 @@
 defmodule FizzBuzzElixir do
-  @moduledoc """
-  Documentation for FizzBuzzElixir.
-  """
+  def fizzbuzz(number) when rem(number, 3) == 0, do: "fizz" 
 
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> FizzBuzzElixir.hello
-      :world
-
-  """
-  def hello do
-    :world
-  end
 end

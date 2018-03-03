@@ -1,8 +1,9 @@
 defmodule FizzBuzzElixirTest do
+  :capture_log
   use ExUnit.Case
   doctest FizzBuzzElixir
 
-  test "greets the world" do
-    assert FizzBuzzElixir.hello() == :world
+  test "returns 'fizz' when passed 3" do
+    assert FizzBuzzElixir.fizzbuzz(3) == "fizz"
   end
 end
