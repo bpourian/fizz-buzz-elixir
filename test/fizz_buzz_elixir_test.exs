@@ -11,7 +11,11 @@ defmodule FizzBuzzElixirTest do
     assert FizzBuzzElixir.fizzbuzz(5) == "buzz"
   end
 
-  test "resturns 'fizzbuzz' when passed 15" do
+  test "returns 'fizzbuzz' when passed 15" do
     assert FizzBuzzElixir.fizzbuzz(15) == "fizzbuzz"
+  end
+
+  test "returns 'number' when passed 1" do
+    assert FizzBuzzElixir.fizzbuzz(1) == 1
   end
 end
